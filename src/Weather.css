@@ -15,8 +15,8 @@ body {
 .container {
 
     width: 400px;
-    height: 400px;
-    background-color: white;
+    /* height: 400px; */
+    /* background-color: white; */
     color: black;
     padding: 30px;
     border-radius: 10px;
@@ -27,6 +27,7 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(50%);
+    background-image: linear-gradient(45deg, #2f4680,#500ae4);
 }
 
 .container h1 {
@@ -39,15 +40,20 @@ body {
 .container input {
 
     padding: 5px 10px;
-    border-radius: 3px;
-    border: 2px solid black;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+   color:#626262;
+   background: #ebfffc;
+   font-size: 18px;
 
 
 
 }
 
 .container input::placeholder {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -60,12 +66,15 @@ body {
 }
 
 .input_fields button {
-    padding: 5px 10px;
-    font-size: 19px;
-    border-radius: 3px;
-    border: 2px solid black;
-    background-color: black;
-    color: white;
+   
+      padding: 10px 18px;
+  
+    border: none;
+    outline: none;
+    border-radius: 40px;
+   color:#626262;
+   background: #ebfffc;
+   font-size: 18px;
 }
 
 .data {
@@ -81,7 +90,8 @@ body {
 }
 .icon img{
   
-    width:120px;
+    width:150px;
+   
 }
 .icon{
   display: flex;
